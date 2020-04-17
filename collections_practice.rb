@@ -12,9 +12,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  array.sort { |a, b| (a.index==1)<=>(b.index==2)}
+  array[1], array[2] = array[2], array[1]
 end
 
 # def swap_elements(array, index, destination_index)
-#   array.sort { |a, b| (a.index==1)<=>(b.index==2)}
+#   array[index], array[destination_index] = array[destination_index], array[index]
 # end
