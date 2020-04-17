@@ -33,7 +33,7 @@ describe 'collections practice' do
   # Question 4a
   describe '#swap_elements_choose' do
     it 'swap two elements of an array based on values passed' do
-      expect(swap_elements(["blake", "ashley", "scott"], 0, 2)).to eq(["scott", "ashley", "blake"])
+      expect(swap_elements_choose(["blake", "ashley", "scott"], 0, 2)).to eq(["scott", "ashley", "blake"])
     end
   end
 
