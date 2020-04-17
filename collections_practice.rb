@@ -41,6 +41,14 @@ end
 #   sum
 # end
 
+# def sum_array(array)
+#   array.reduce(:+)
+# end
+
 def sum_array(array)
-  array.reduce(:+)
+  sum = 0
+  array.inject { |sum, n| sum + n }
+  sum
 end
+
+
