@@ -27,6 +27,6 @@ end
 
 def kesha_maker(array)
   kesha_array = []
-  kesha_array << (array.each { |word| word[3].replace("$")})
+  kesha_array << (array.each { |word| word[2]="$"})
   kesha_array
 end
