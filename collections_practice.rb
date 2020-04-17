@@ -30,3 +30,7 @@ def kesha_maker(array)
   kesha_array = array.each { |word| word[2]="$"}
   kesha_array
 end
+
+def find_a(array)
+  array.select { |word| word.start_with? ("a")}
+end
